@@ -1,0 +1,278 @@
+
+***** MUSICAL *****
+
+AN_Construct_MP('grandfather-clock.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('grandfather-clock_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+generateonsetspikes1_mono('grandfather-clock_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+
+AN_and_Onset_Reconstruct('grandfather-clock_16_50_AN.mat', 'grandfather-clock_16_50_AN_ANOnset.mat', 'grandfather-clock_16_50_AN_OriginalOnset.mat', 3)
+
+clear all, close all, clc;
+
+
+
+AN_Construct_MP('duduk.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('duduk_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+generateonsetspikes1_mono('duduk_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+AN_and_Onset_Reconstruct('duduk_16_50_AN.mat', 'duduk_16_50_AN_ANOnset.mat', 'duduk_16_50_AN_OriginalOnset.mat', 3)
+
+clear all, close all, clc;
+
+
+
+
+
+AN_Construct_MP('choir-hallelujah.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('choir-hallelujah_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+generateonsetspikes1_mono('choir-hallelujah_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+AN_and_Onset_Reconstruct('choir-hallelujah_16_50_AN.mat', 'choir-hallelujah_16_50_AN_ANOnset.mat', 'choir-hallelujah_16_50_AN_OriginalOnset.mat', 3)
+
+clear all, close all, clc;
+
+
+
+
+AN_Construct_MP('countdown-male-voice.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown-male-voice_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown-male-voice_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+AN_and_Onset_Reconstruct('countdown-male-voice_16_50_AN.mat', 'countdown-male-voice_16_50_AN_ANOnset.mat', 'countdown-male-voice_16_50_AN_OriginalOnset.mat', 1)
+
+clear all, close all, clc;
+
+
+
+AN_Construct_MP('vocals.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('vocals_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+generateonsetspikes1_mono('vocals_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+AN_and_Onset_Reconstruct('vocals_16_50_AN.mat', 'vocals_16_50_AN_ANOnset.mat', 'vocals_16_50_AN_OriginalOnset.mat', 1)
+
+clear all, close all, clc;
+
+
+
+
+AN_Construct_MP('female_countdown.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('female_countdown_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+generateonsetspikes1_mono('female_countdown_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+AN_and_Onset_Reconstruct('female_countdown_16_50_AN.mat', 'female_countdown_16_50_AN_ANOnset.mat', 'female_countdown_16_50_AN_OriginalOnset.mat', 2)
+
+clear all, close all, clc;
+
+
+
+AN_Construct_MP('female_percent.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('female_percent_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+generateonsetspikes1_mono('female_percent_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+AN_and_Onset_Reconstruct('female_percent_16_50_AN.mat', 'female_percent_16_50_AN_ANOnset.mat', 'female_percent_16_50_AN_OriginalOnset.mat', 2)
+
+clear all, close all, clc;
+
+
+
+
+AN_Construct_MP('countdown_female_Convlv_imp_Echo_Hall.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown_female_Convlv_imp_Echo_Hall_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown_female_Convlv_imp_Echo_Hall_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+AN_and_Onset_Reconstruct('countdown_female_Convlv_imp_Echo_Hall_16_50_AN.mat', 'countdown_female_Convlv_imp_Echo_Hall_16_50_AN_ANOnset.mat', 'countdown_female_Convlv_imp_Echo_Hall_16_50_AN_OriginalOnset.mat', 2)
+
+clear all, close all, clc;
+
+
+
+
+AN_Construct_MP('countdown_female_Convlv_imp_Cement_Blocks.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown_female_Convlv_imp_Cement_Blocks_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown_female_Convlv_imp_Cement_Blocks_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+AN_and_Onset_Reconstruct('countdown_female_Convlv_imp_Cement_Blocks_16_50_AN.mat', 'countdown_female_Convlv_imp_Cement_Blocks_16_50_AN_ANOnset.mat', 'countdown_female_Convlv_imp_Cement_Blocks_16_50_AN_OriginalOnset.mat', 2)
+
+clear all, close all, clc;
+
+
+
+
+
+AN_Construct_MP('grandfather_clock_Convlv_imp_Cement_Blocks.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('grandfather_clock_Convlv_imp_Cement_Blocks_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+generateonsetspikes1_mono('grandfather_clock_Convlv_imp_Cement_Blocks_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+AN_and_Onset_Reconstruct('grandfather_clock_Convlv_imp_Cement_Blocks_16_50_AN.mat', 'grandfather_clock_Convlv_imp_Cement_Blocks_16_50_AN_ANOnset.mat', 'grandfather_clock_Convlv_imp_Cement_Blocks_16_50_AN_OriginalOnset.mat', 3)
+
+clear all, close all, clc;
+
+
+
+
+
+AN_Construct_MP('grandfather_clock_Convlv_imp_Echo_Hall.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('grandfather_clock_Convlv_imp_Echo_Hall_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+generateonsetspikes1_mono('grandfather_clock_Convlv_imp_Echo_Hall_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+clear all, close all, clc;
+AN_and_Onset_Reconstruct('grandfather_clock_Convlv_imp_Echo_Hall_16_50_AN.mat', 'grandfather_clock_Convlv_imp_Echo_Hall_16_50_AN_ANOnset.mat', 'grandfather_clock_Convlv_imp_Echo_Hall_16_50_AN_OriginalOnset.mat', 3)
+
+clear all, close all, clc;
+
+
+
+
+
+
+
+
+
+
+
+
+**********  The codes have been changed so the old ones are not working. ***********
+
+
+AN_Construct_MP('countdown_female.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown_female_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+generateonsetspikes1_mono('countdown_female_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('countdown_female_16_50_AN.mat', 'countdown_female_16_50_AN_ANOnset.mat', 'countdown_female_16_50_AN_OriginalOnset.mat', 2)
+clear all, close all, clc;
+
+
+
+
+
+
+
+
+
+
+AN_Construct_MP('acoustic.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('acoustic_16_50_AN.mat', 0.008, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('acoustic_16_50_AN.mat', 'acoustic_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;
+
+
+AN_Construct_MP('acoustic_Convlv_imp_cathedral.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('acoustic_Convlv_imp_cathedral_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('acoustic_Convlv_imp_cathedral_16_50_AN.mat', 'acoustic_Convlv_imp_cathedral_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;
+
+
+
+
+
+
+
+
+AN_Construct_MP('countdown_female.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown_female_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+generateonsetspikes1_mono('countdown_female_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('countdown_female_16_50_AN.mat', 'countdown_female_16_50_AN_ANOnset.mat', 'countdown_female_16_50_AN_OriginalOnset.mat', 2)
+clear all, close all, clc;
+
+
+
+AN_Construct_MP('countdown_female_Convlv_imp_Cement_Blocks.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown_female_Convlv_imp_Cement_Blocks_16_50_AN.mat', 0.008, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('countdown_female_Convlv_imp_Cement_Blocks_16_50_AN.mat', 'countdown_female_Convlv_imp_Cement_Blocks_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;
+
+AN_Construct_MP('countdown_female_Convlv_imp_Echo_Hall.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown_female_Convlv_imp_Echo_Hall_16_50_AN.mat', 0.008, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('countdown_female_Convlv_imp_Echo_Hall_16_50_AN.mat', 'countdown_female_Convlv_imp_Echo_Hall_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;
+
+AN_Construct_MP('countdown_female_Convlv_imp_Right_Glass.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown_female_Convlv_imp_Right_Glass_16_50_AN.mat', 0.008, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('countdown_female_Convlv_imp_Right_Glass_16_50_AN.mat', 'countdown_female_Convlv_imp_Right_Glass_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;
+
+AN_Construct_MP('countdown_female_Convlv_imp_Small_Room.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown_female_Convlv_imp_Small_Room_16_50_AN.mat', 0.008, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('countdown_female_Convlv_imp_Small_Room_16_50_AN.mat', 'countdown_female_Convlv_imp_Small_Room_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;
+
+AN_Construct_MP('countdown_female_Convlv_imp_Vocal_Duo.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('countdown_female_Convlv_imp_Vocal_Duo_16_50_AN.mat', 0.008, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('countdown_female_Convlv_imp_Vocal_Duo_16_50_AN.mat', 'countdown_female_Convlv_imp_Vocal_Duo_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;
+
+
+
+
+
+
+
+
+
+
+AN_Construct_MP('grandfather_clock.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('grandfather_clock_16_50_AN.mat', 0.008, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('grandfather_clock_16_50_AN.mat', 'grandfather_clock_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;
+
+
+
+
+AN_Construct_MP('grandfather_clock_Convlv_imp_Cement_Blocks.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('grandfather_clock_Convlv_imp_Cement_Blocks_16_50_AN.mat', 0.008, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('grandfather_clock_Convlv_imp_Cement_Blocks_16_50_AN.mat', 'grandfather_clock_Convlv_imp_Cement_Blocks_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;
+
+AN_Construct_MP('grandfather_clock_Convlv_imp_Echo_Hall.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('grandfather_clock_Convlv_imp_Echo_Hall_16_50_AN.mat', 0.008, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('grandfather_clock_Convlv_imp_Echo_Hall_16_50_AN.mat', 'grandfather_clock_Convlv_imp_Echo_Hall_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;
+
+AN_Construct_MP('grandfather_clock_Convlv_imp_Right_Glass.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('grandfather_clock_Convlv_imp_Right_Glass_16_50_AN.mat', 0.008, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('grandfather_clock_Convlv_imp_Right_Glass_16_50_AN.mat', 'grandfather_clock_Convlv_imp_Right_Glass_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;
+
+AN_Construct_MP('grandfather_clock_Convlv_imp_Small_Room.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('grandfather_clock_Convlv_imp_Small_Room_16_50_AN.mat', 0.008, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('grandfather_clock_Convlv_imp_Small_Room_16_50_AN.mat', 'grandfather_clock_Convlv_imp_Small_Room_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;
+
+AN_Construct_MP('grandfather_clock_Convlv_imp_Vocal_Duo.wav', 16, 50, 0)
+clear all, close all, clc;
+generateonsetspikes1_mono('grandfather_clock_Convlv_imp_Vocal_Duo_16_50_AN.mat', 0.008, [500 1100 25], 0.0015, 1000, 1)
+AN_and_Onset_Reconstruct('grandfather_clock_Convlv_imp_Vocal_Duo_16_50_AN.mat', 'grandfather_clock_Convlv_imp_Vocal_Duo_16_50_AN_onset_Reuptake_25.mat', 2)
+clear all, close all, clc;

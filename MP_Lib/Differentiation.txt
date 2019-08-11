@@ -1,0 +1,21 @@
+﻿This is to differentiate a sound and see its effect - 
+
+
+[sig,fs,nbits] = wavread('testfile.wav');
+sig = sig(:,1) ;
+sig1 = diff(sig);
+wavwrite(sig1, fs, nbits, 'test_Diff.wav')
+
+
+
+[sig,fs,nbits] = wavread('testfile.wav');
+sig = sig(:,1) ;
+sig1 = diff(sig, 2);
+wavwrite(sig1, fs, nbits, 'test_Diff_2.wav')
+
+
+
+[sig,fs,nbits] = wavread('testfile.wav');
+sig = sig(:,1) ;
+sig1 = diff(sig, 3);
+wavwrite(sig1, fs, nbits, 'test_Diff_3.wav')

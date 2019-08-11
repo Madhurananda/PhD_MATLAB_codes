@@ -1,0 +1,23 @@
+
+% To create a 100Hz simple signal - 
+Fs=44100;
+ t  = 0:1/Fs:1-(1/Fs);
+A  = 0.9;   % Vpeak
+ F1 = 100; % Hz
+x  = A*sin(2*pi*t*F1);
+
+
+% Some flat signals to  be added at the beginning, to avoid sudden 
+% increase at the signal. 
+
+zeros = zeros(1,Fs/10);
+t1 = 0:1/Fs:(10/F1)-(1/Fs);
+a1 = 0:(A/length(t1)):A-(A/length(t1));
+anth_sig = a1.*sin(2*pi*F1*t1);
+
+x = horzcat(zeros,anth_sig,x);
+
+wavwrite(x,Fs,16,'100Hz_Simple.wav');
+
+
+

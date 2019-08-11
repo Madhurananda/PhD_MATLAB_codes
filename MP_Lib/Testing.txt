@@ -1,0 +1,14 @@
+
+Stereo_To_Mono('CONGA_TUMBA.wav','CONGA_TUMBA_LEFT.wav','Left')
+
+>> AN_Construct_MP('CONGA_TUMBA.wav', 16, 50, 0);
+
+>> AN_Reconstruct('CONGA_TUMBA_16_50_AN.mat', 1, 0, 0);
+
+
+
+generateonsetspikes1_mono('CONGA_TUMBA_16_50_AN.mat', 1, [500 1100 25], 0.0015, 1000, 1)
+
+generateonsetspikes1_mono('CONGA_TUMBA_16_50_AN.mat', 2, [500 1100 25], 0.0015, 1000, 1)
+
+>> AN_and_Onset_Reconstruct('CONGA_TUMBA_16_50_AN.mat', 'CONGA_TUMBA_16_50_AN_ANOnset.mat', 'CONGA_TUMBA_16_50_AN_OriginalOnset.mat', 1)

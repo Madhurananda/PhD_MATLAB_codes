@@ -1,0 +1,3 @@
+AN_Construct_MP('sound_file', 'sensitivity_level', 'channel')
+
+EX. - AN_Construct_MP('MPPC0SA1_Normalised.wav', 16, 50)

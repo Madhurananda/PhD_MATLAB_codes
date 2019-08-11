@@ -1,0 +1,3 @@
+AN_Reconstruct('sound_file','Ramp_option','SpikeCap_Option','JitteredSpike_Option')
+
+Ex. - AN_Reconstruct('testfile_16_50_AN.mat',1,1,0)
