@@ -1,5 +1,4 @@
-# PhD_MATLAB_codes
-This is the MATLAB codes for my PhD. 
+# This is the MATLAB scripts for my PhD. 
 
-Adding more test here.
+
 
