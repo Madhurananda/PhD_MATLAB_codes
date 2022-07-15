@@ -1,4 +1,4 @@
-# This is the MATLAB scripts for my PhD. 
+# These are the MATLAB scripts for my PhD. 
 
 
 
